@@ -2,7 +2,7 @@
 # lock the myfeature branch for pushing
 refname="$1"
 
-if [[ $refname == "refs/heads/myfeature" ]]
+if [[ $refname == "refs/heads/master" ]]
 then
     echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     echo "You cannot push to myfeature! It's locked"
